@@ -1,11 +1,11 @@
-import { useState } from "react";
-import Select from "./components/form/Select";
+// import Select from "./components/form/Select";
+import AstraLandingPage from "./Astra";
 
 function App() {
-  const [selectValue, setSelectValue] = useState<string[]>([]);
+  // const [selectValue, setSelectValue] = useState<string[]>([]);
   return (
     <>
-      <div className="flex justify-center items-center h-screen	">
+      {/* <div className="flex justify-center items-center h-screen	">
         <Select
           className="w-64"
           multiple
@@ -25,7 +25,8 @@ function App() {
           onChange={(value) => setSelectValue(value as string[])}
           error={selectValue.length === 0 ? "Enter a value" : ""}
         />
-      </div>
+      </div> */}
+      <AstraLandingPage />
     </>
   );
 }

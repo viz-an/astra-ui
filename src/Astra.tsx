@@ -2,7 +2,7 @@
 
 const AstraLandingPage = () => {
   return (
-    <div className="min-h-screen bg-[#F8F9FA] text-gray-900 flex flex-col items-center justify-center p-6">
+    <div className="min-h-screen bg-[#F8F9FA] text-gray-900 flex flex-col items-center justify-between p-6">
       {/* Header */}
       <header className="w-full max-w-6xl flex justify-between items-center py-6">
         <h1 className="text-3xl font-bold text-[#0080FF]">Astra UI</h1>
@@ -10,7 +10,15 @@ const AstraLandingPage = () => {
           <ul className="flex space-x-6 text-lg">
             <li className="hover:text-[#0080FF] cursor-pointer">Components</li>
             <li className="hover:text-[#0080FF] cursor-pointer">Docs</li>
-            <li className="hover:text-[#0080FF] cursor-pointer">GitHub</li>
+            <li className="hover:text-[#0080FF] cursor-pointer">
+              <a
+                href="https://github.com/viz-an/astra-ui"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </li>
           </ul>
         </nav>
       </header>
