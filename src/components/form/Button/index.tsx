@@ -54,8 +54,8 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       iconPosition = "left",
       isLoading = false,
       disabled,
-      ...props
-    }: ButtonProps,
+    }: // ...props
+    ButtonProps,
     ref
   ) => {
     const iconOnly =
