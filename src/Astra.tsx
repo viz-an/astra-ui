@@ -8,8 +8,24 @@ const AstraLandingPage = () => {
         <h1 className="text-3xl font-bold text-[#0080FF]">Astra UI</h1>
         <nav>
           <ul className="flex space-x-6 text-lg">
-            <li className="hover:text-[#0080FF] cursor-pointer">Components</li>
-            <li className="hover:text-[#0080FF] cursor-pointer">Docs</li>
+            <li className="hover:text-[#0080FF] cursor-pointer">
+              <a
+                href="https://6847306b70414f50edec6244-wllgwvwwvc.chromatic.com/"
+                target="_blank"
+                rel="noopener nonreferrer"
+              >
+                Components
+              </a>
+            </li>
+            <li className="hover:text-[#0080FF] cursor-pointer">
+              <a
+                href="https://6847306b70414f50edec6244-wllgwvwwvc.chromatic.com/"
+                target="_blank"
+                rel="noopener nonreferrer"
+              >
+                Docs
+              </a>
+            </li>
             <li className="hover:text-[#0080FF] cursor-pointer">
               <a
                 href="https://github.com/viz-an/astra-ui"
@@ -34,7 +50,13 @@ const AstraLandingPage = () => {
         </p>
         <div className="mt-6">
           <button className="px-6 py-3 bg-[#0080FF] text-white rounded-2xl shadow-lg text-lg font-semibold hover:bg-[#0056D2] transition-all">
-            Get Started
+            <a
+              href="https://6847306b70414f50edec6244-wllgwvwwvc.chromatic.com/"
+              target="_blank"
+              rel="noopener nonreferrer"
+            >
+              Get Started
+            </a>
           </button>
         </div>
       </section>
