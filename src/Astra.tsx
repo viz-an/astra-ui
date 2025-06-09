@@ -49,15 +49,15 @@ const AstraLandingPage = () => {
           component library.
         </p>
         <div className="mt-6">
-          <button className="px-6 py-3 bg-[#0080FF] text-white rounded-2xl shadow-lg text-lg font-semibold hover:bg-[#0056D2] transition-all">
-            <a
-              href="https://6847306b70414f50edec6244-wllgwvwwvc.chromatic.com/"
-              target="_blank"
-              rel="noopener nonreferrer"
-            >
+          <a
+            href="https://6847306b70414f50edec6244-wllgwvwwvc.chromatic.com/"
+            target="_blank"
+            rel="noopener nonreferrer"
+          >
+            <button className="px-6 py-3 bg-[#0080FF] text-white rounded-2xl shadow-lg text-lg font-semibold hover:bg-[#0056D2] transition-all">
               Get Started
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
       </section>
 
